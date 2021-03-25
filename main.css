@@ -1,0 +1,61 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+.offline {
+    color: #d50000;
+}
+
+.online {
+    color: #1faa00;
+}
+
+body {
+    background: #19191a;
+    color: #64dd17;
+}
+
+h1 {
+    font-family: sens-serif, 'Helvetica';
+    margin: 5px;
+    text-align: center;
+}
+
+.container {
+    width: 600px;
+    margin: 0 auto;
+}
+
+input {
+    color: #64dd17;
+}
+
+#btnSubmit,
+#msgField {
+    padding: 5px;
+    background: none;
+    outline: none;
+    border: none;
+    font-size: 32px;
+    margin-bottom: 15px;
+}
+
+#msgField::placeholder {
+    color: #64dd17;
+}
+
+.msgBox {
+    font-family: sans-serif, 'Helvetica';
+    font-size: 20px;
+    margin-bottom: 5px;
+}
+
+.msgs div::before {
+    position: absolute;
+    display: block;
+    content: ":";
+    font-size: 32px;
+    top: -7px;
+    left: -10px;
+}
